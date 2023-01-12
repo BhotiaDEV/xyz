@@ -1,0 +1,146 @@
+* {
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+/* #f5f2f3 */
+
+.wishlist-page{
+    position:relative;
+    /* border:1px solid red; */
+    width:90%;
+    margin:2.5% 5% 5% 5%;
+    display:inline-block;
+    /* height:200px; */
+    gap:10px;
+    /* margin:5vw; */
+    /* background-color: bisque; */
+}
+
+/* wishlist heading css */
+.wishlist-heading{
+    font-size:2em;
+    letter-spacing: 2px;
+}
+
+/* wishlist-item css */
+.wishlist-item{
+    position:relative;
+    display:flex;
+    float:left;
+    width:65%;
+    height:250px;
+    margin-right:8%;
+    margin-bottom:20px;
+    padding:3px;
+    /* border:1px solid green; */
+    gap:20px;
+    background-color:#ffffff;
+}
+
+
+.wishlist-img{
+    flex:1;
+    height:70%;
+    /* border:1px solid pink; */
+}
+.wishlist-details{
+    flex:4;
+    /* border:1px solid black; */
+}
+.delete-btn{
+    position:absolute;
+    right:10px;
+    top:12px;
+}
+.add-to-cart{
+    position:absolute;
+    right:20px;
+    bottom:30px;
+    /* width:50%; */
+    height:50px;
+}
+.add-to-cart-btn{
+    color:#f5f2f3;
+    width:200px;
+    padding:10px 0;
+    background-color:crimson;
+    text-align:center;
+}
+
+.wishlist-name{
+    font-size:1.2em;
+    margin:10px 0;
+    font-weight:300;
+}
+.wishlist-price{
+    margin-top:10px;
+font-size:1.1em;
+font-weight:500;
+letter-spacing: 1px;
+}
+.user-data{
+    width:27%;
+    display:inline-block;
+    padding:3px;
+    background-color:#f5f2f3;
+    
+}
+.user-details{
+    display:inline-block;
+    /* border:1px solid black; */
+    width:100%;
+    height:200px;
+    margin-bottom:50px;
+    text-align:center;
+    background-color:#ffffff
+}
+.user-image{
+    margin-left:50%;
+    margin-top:40px; 
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background-color:#f5f2f3;
+    transform:translateX(-50%)
+}
+.user-email{
+    margin-top:15px;
+    font-size:0.9em;
+    letter-spacing: 3px;
+}
+.user-phone{
+    margin-top:5px;
+    font-size:0.8em;
+    letter-spacing:2px;
+}
+
+.user-address{
+    position:relative;
+    width:100%;
+    /* height:150px; */
+    padding:7px;
+    background-color:#ffffff;
+    /* border:1px solid black; */
+}
+.address-head{
+    padding: 12px 0;
+    font-size:1.2em;
+    letter-spacing: 2px;
+    font-weight:400;
+    /* height:40px; */
+    background-color: #f5f2f3;
+    text-align:center;
+}
+.address-body{
+    margin-top:10px;
+    font-size: 0.9em;
+    font-weight: 300;
+    padding:0 15px;
+}
+.address-change{
+    position:absolute;
+    right:5px;
+    bottom:5px;
+    font-size:0.9em;
+}
